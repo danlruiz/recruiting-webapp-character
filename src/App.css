@@ -30,10 +30,28 @@
   flex: 1 1 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.box {
+  border : 2px solid white;
+  border-radius: 5px;
+  padding : 10px;
+  margin-right: 10px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.character-class-link {
+  cursor :pointer
 }
 
 @keyframes App-logo-spin {
